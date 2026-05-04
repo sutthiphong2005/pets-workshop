@@ -62,7 +62,7 @@ def get_dog(id: int) -> tuple[Response, int] | Response:
     
     # Return 404 if dog not found
     if not dog_query:
-        return jsonify({"error": "Dog not found"}), 404
+        return jsonify({"error": "Dog not found ja"}), 404
     
     # Convert the result to a dictionary
     dog: Dict[str, Any] = {
